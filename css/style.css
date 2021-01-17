@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+body{
+
+font-family: 'Open Sans', sans-serif;
+background: #434242;
+color: #fff;
+
+}
+
+
+a.navbar-brand img {
+max-width: 100px;
+}
+.navabar {
+border-bottom: 3px solid #008ed6;
+opacity: 0.8;
+}
+.navbar-expand .navbar-nav .nav-link {
+padding-right: 2rem;
+padding-left: 2rem;
+}
+
+#home-section{
+
+background-image: url(../images/undraw_Social_ideas_re_j5v4.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+min-height: 700px;
+
+}.dark-overlay {
+position: absolute;
+top: auto;
+left: 0;
+width: 100%;
+min-height: 700px;
+background-color: rgba(0,0,0,0.7);
+}
+#home-section .fas,#create-section .fas{
+color: #008ed6;
+background:#FFF;
+padding: 5px;
+border-radius: 5px;
+}
+.home-inner.container {
+padding-top: 200px;
+}
+#explore-section .fas,#share-section .fas{
+
+background-color: #333;
+color: #fff;
+padding: 5px;
+border-radius: 5px;
+}
+
+.col-md-6 .img-fluid {
+    max-width: 400px;
+    width: 100%;
+}
